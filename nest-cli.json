@@ -1,0 +1,16 @@
+{
+  "projects": {
+    "shared-db": {
+      "type": "library",
+      "root": "libs/shared-db",
+      "entryFile": "index",
+      "sourceRoot": "libs/shared-db/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/shared-db/tsconfig.lib.json"
+      }
+    }
+  },
+  "compilerOptions": {
+    "webpack": true
+  }
+}
